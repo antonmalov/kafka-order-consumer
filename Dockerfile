@@ -1,3 +1,3 @@
-FROM eclipse-temurin:21-jdk-slim
-COPY target/order-service-0.0.1-SNAPSHOT.jar app.jar
+FROM amazoncorretto:21-alpine
+COPY target/notification-service-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
