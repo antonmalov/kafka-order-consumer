@@ -1,0 +1,3 @@
+spring:
+  mongodb:
+    uri: mongodb://user:pass@mongodb:27017/orders_db?authSource=admin
